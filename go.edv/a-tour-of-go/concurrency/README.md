@@ -30,8 +30,16 @@ sender 可以使用 `close` 关闭一个 channel 表示不会继续发送 value 
 
 `default` 会在没有 case 满足的情况下执行, 小心使用以避免引起 block.
 
+### [Exercise: Equivalent Binary Trees](https://go.dev/tour/concurrency/7)
+
+等价二叉树的遍历和判断.
+
 ### [sync.Mutex](https://go.dev/tour/concurrency/9)
 
 使用 `sync.Mutex` 使得一个 variable 在同一时刻只能被一个 goroutine 访问, 这也叫"互斥(mutual exclustion)", 提供这种机制的数据结构叫做 *mutex*.
 
 `sync.Mutext` 的方法 `Lock` 和 `Unlock` 提供了 mutual exclustion 的机制.
+
+### [Exercise: Web Crawler](https://go.dev/tour/concurrency/10)
+
+TODO.
